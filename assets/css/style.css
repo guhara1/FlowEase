@@ -78,9 +78,27 @@ p { margin: 0 0 var(--space-4); }
 /* ---------- Hero ---------- */
 .hero { position: relative; padding-block: var(--space-9) var(--space-8); overflow: hidden; }
 .hero::before { content: ""; position: absolute; inset: 0; background: var(--grad-hero); pointer-events: none; }
-.hero__inner { position: relative; text-align: center; }
+.hero__inner { position: relative; text-align: center; width: 100%; }
 .hero h1 { font-size: var(--fs-3xl); font-weight: var(--fw-extrabold); letter-spacing: -.03em; }
 .hero__sub { color: var(--color-text-soft); font-size: var(--fs-md); max-width: 680px; margin: var(--space-4) auto var(--space-6); }
+
+/* Photo hero (background image + legibility overlay) */
+.hero--photo {
+  background-image: var(--hero-image, url("/assets/img/hero-spa.jpg"));
+  background-size: cover;
+  background-position: center 42%;
+  min-height: clamp(480px, 72vh, 720px);
+  display: flex; align-items: center;
+}
+.hero--photo::before {
+  background:
+    radial-gradient(900px 440px at 50% 54%, rgba(6,9,15,.34), transparent 72%),
+    linear-gradient(180deg, rgba(6,9,15,.80) 0%, rgba(6,9,15,.30) 34%, rgba(6,9,15,.52) 72%, rgba(6,9,15,.93) 100%);
+}
+.hero--photo h1 { text-shadow: 0 2px 24px rgba(0,0,0,.55); }
+.hero--photo .hero__sub { color: var(--color-text); text-shadow: 0 1px 16px rgba(0,0,0,.55); }
+.hero--photo .eyebrow { text-shadow: 0 1px 12px rgba(0,0,0,.5); }
+.hero--sub { min-height: clamp(360px, 50vh, 540px); padding-block: var(--space-8); }
 .hero__cta { display: flex; gap: var(--space-3); justify-content: center; flex-wrap: wrap; }
 .hero__trust { margin-top: var(--space-6); color: var(--color-text-faint); font-size: var(--fs-sm); }
 
