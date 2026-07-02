@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://ganda-go.example/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://ganda-go.example/assets/img/og-cover.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image><image:loc>https://ganda-go.example/assets/img/west-metro.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/siheung/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://ganda-go.example/assets/img/siheung.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/bucheon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://ganda-go.example/assets/img/bucheon.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/incheon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://ganda-go.example/assets/img/incheon.jpg</image:loc></image:image>
+  </url>
+</urlset>
