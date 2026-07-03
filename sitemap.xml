@@ -104,4 +104,19 @@
   <url><loc>https://ganda-go.example/west-metro/incheon/geomdan-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ganda-go.example/west-metro/incheon/yeongjong-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ganda-go.example/west-metro/incheon/jemulpo-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/use/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/check/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
