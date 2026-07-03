@@ -84,7 +84,7 @@ p { margin: 0 0 var(--space-4); }
 
 /* Photo hero (background image + legibility overlay) */
 .hero--photo {
-  background-image: var(--hero-image, url("/assets/img/hero-spa.jpg"));
+  background-image: var(--hero-image, url("/assets/img/hero-bg.webp"));
   background-size: cover;
   background-position: center 42%;
   min-height: clamp(480px, 72vh, 720px);
