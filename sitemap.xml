@@ -174,4 +174,44 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/baegot-jeongwang-oido/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/eungye-janghyeon-mokgam/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/bucheon-jungdong-sangdong-songnae/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/yeokgok-sosa-okgil/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/songdo-yeonsu-nonhyeon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/guwol-bupyeong-gyeyang/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/cheongna-geomdan-seohae/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://ganda-go.example/west-metro/area/yeongjong-jemulpo-airport/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
