@@ -14,4 +14,25 @@
   <url><loc>https://ganda-go.example/west-metro/bucheon/sangdong/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ganda-go.example/west-metro/siheung/baegot-dong/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
   <url><loc>https://ganda-go.example/west-metro/siheung/jeongwang-dong/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/sosabon/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/songnae/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/beombak/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/goean/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/okgil/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/ojeong-dong/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/wonjong/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/gogang/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/seonggok/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/yeowol/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/eunhaeng/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/daeya/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/sincheon/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/sinhyeon/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/maehwa/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/mokgam/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/neunggok/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/janggok/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/yeonseong/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/gunja/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/siheung/wolgot/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 </urlset>
