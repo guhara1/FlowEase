@@ -92,4 +92,16 @@
   <url><loc>https://ganda-go.example/west-metro/bucheon/wonmidong/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://ganda-go.example/west-metro/bucheon/yeokgok/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://ganda-go.example/west-metro/bucheon/simgokbon/</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/wonmi-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/sosa-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/bucheon/ojeong-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/yeonsu-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/namdong-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/bupyeong-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/gyeyang-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/michuhol-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/seohae-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/geomdan-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/yeongjong-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://ganda-go.example/west-metro/incheon/jemulpo-gu/</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
