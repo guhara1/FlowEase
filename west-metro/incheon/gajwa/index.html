@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/incheon/gajwa/#webpage", "url": "https://flowease.pages.dev/west-metro/incheon/gajwa/", "name": "인천 가좌동 출장마사지 | 가좌동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "인천권", "item": "https://flowease.pages.dev/west-metro/incheon/" },
-        { "@type": "ListItem", "position": 4, "name": "서해구", "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "가좌동", "item": "https://flowease.pages.dev/west-metro/incheon/gajwa/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "가좌동은 어떤 생활권인가요?", "acceptedAnswer": { "@type": "Answer", "text": "인천 서부의 주거지와 공업지역이 공존하는 지역으로, 노후 주택가와 다세대·빌라, 소규모 공장·물류 시설이 섞여 있습니다. 방문 위치가 주택가인지 공단 인접인지에 따라 출입과 주차 여건이 달라질 수 있어 예약 시 확인이 필요합니다." } },
-        { "@type": "Question", "name": "예약 전 무엇을 확인하면 되나요?", "acceptedAnswer": { "@type": "Answer", "text": "정확한 주소와 건물 유형, 층수, 공동현관 출입 방법, 주차 가능 여부를 확인해 두면 방문이 원활합니다. 아파트나 오피스텔은 방문 등록이나 카드키 여부도 함께 알려주시면 도착이 매끄럽습니다." } },
-        { "@type": "Question", "name": "야간에도 이용할 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "방문형 서비스라 시간대에 맞춰 조율할 수 있으나, 건물 공동현관 잠금이나 방문 등록, 엘리베이터·주차장 운영 여부를 미리 확인해 두면 야간 방문이 한결 수월합니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/incheon/gajwa/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/incheon/gajwa/",
+      "name": "인천 가좌동 출장마사지 | 가좌동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "인천권",
+          "item": "https://flowease.pages.dev/west-metro/incheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "서해구",
+          "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "가좌동",
+          "item": "https://flowease.pages.dev/west-metro/incheon/gajwa/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "가좌동은 어떤 생활권인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "인천 서부의 주거지와 공업지역이 공존하는 지역으로, 노후 주택가와 다세대·빌라, 소규모 공장·물류 시설이 섞여 있습니다. 방문 위치가 주택가인지 공단 인접인지에 따라 출입과 주차 여건이 달라질 수 있어 예약 시 확인이 필요합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "예약 전 무엇을 확인하면 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "정확한 주소와 건물 유형, 층수, 공동현관 출입 방법, 주차 가능 여부를 확인해 두면 방문이 원활합니다. 아파트나 오피스텔은 방문 등록이나 카드키 여부도 함께 알려주시면 도착이 매끄럽습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "야간에도 이용할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "방문형 서비스라 시간대에 맞춰 조율할 수 있으나, 건물 공동현관 잠금이나 방문 등록, 엘리베이터·주차장 운영 여부를 미리 확인해 두면 야간 방문이 한결 수월합니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

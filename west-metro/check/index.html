@@ -24,30 +24,110 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/check/#webpage",
-        "url": "https://flowease.pages.dev/west-metro/check/", "name": "예약 전 확인사항 주소·출입·시간·개인정보 기준",
-        "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" },
-        "primaryImageOfPage": { "@type": "ImageObject", "url": "https://flowease.pages.dev/assets/img/west-metro.jpg", "width": 1200, "height": 630 } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "예약 전 확인", "item": "https://flowease.pages.dev/west-metro/check/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "예약 시 어떤 정보가 필요한가요?",
-          "acceptedAnswer": { "@type": "Answer", "text": "방문 주소(동·호수 포함), 건물 출입 방법, 희망 시간, 코스, 연락처만 확인합니다. 그 외 정보는 요구하지 않습니다." } },
-        { "@type": "Question", "name": "예약 변경이나 취소는 언제까지 가능한가요?",
-          "acceptedAnswer": { "@type": "Answer", "text": "관리사 배정과 이동이 시작되기 전에 연락 주시면 변경·취소가 가능합니다. 이동이 시작된 뒤에는 상담을 통해 조정합니다." } },
-        { "@type": "Question", "name": "외곽 지역은 추가 비용이 있나요?",
-          "acceptedAnswer": { "@type": "Answer", "text": "기준 요금은 60분 90,000원, 90분 150,000원, 120분 180,000원이며, 도서·외곽 등 이동이 긴 지역은 상담 시 이동 기준을 먼저 안내한 뒤 확정합니다." } },
-        { "@type": "Question", "name": "개인정보는 어떻게 처리되나요?",
-          "acceptedAnswer": { "@type": "Answer", "text": "예약 확인과 연락에 필요한 최소 정보만 확인하며, 예약 완료 후 목적 외로 보관하거나 사용하지 않습니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/check/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/check/",
+      "name": "예약 전 확인사항 주소·출입·시간·개인정보 기준",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://flowease.pages.dev/assets/img/west-metro.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "예약 전 확인",
+          "item": "https://flowease.pages.dev/west-metro/check/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "예약 시 어떤 정보가 필요한가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "방문 주소(동·호수 포함), 건물 출입 방법, 희망 시간, 코스, 연락처만 확인합니다. 그 외 정보는 요구하지 않습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "예약 변경이나 취소는 언제까지 가능한가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "관리사 배정과 이동이 시작되기 전에 연락 주시면 변경·취소가 가능합니다. 이동이 시작된 뒤에는 상담을 통해 조정합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "외곽 지역은 추가 비용이 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "기준 요금은 60분 90,000원, 90분 150,000원, 120분 180,000원이며, 도서·외곽 등 이동이 긴 지역은 상담 시 이동 기준을 먼저 안내한 뒤 확정합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "개인정보는 어떻게 처리되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "예약 확인과 연락에 필요한 최소 정보만 확인하며, 예약 완료 후 목적 외로 보관하거나 사용하지 않습니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -245,6 +325,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

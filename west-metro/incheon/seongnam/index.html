@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/incheon/seongnam/#webpage", "url": "https://flowease.pages.dev/west-metro/incheon/seongnam/", "name": "인천 석남동 출장마사지 | 석남동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "인천권", "item": "https://flowease.pages.dev/west-metro/incheon/" },
-        { "@type": "ListItem", "position": 4, "name": "서해구", "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "석남동", "item": "https://flowease.pages.dev/west-metro/incheon/seongnam/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "석남동은 어떤 생활권이라 방문형 이용 시 무엇을 고려하나요?", "acceptedAnswer": { "@type": "Answer", "text": "원도심 주택가와 산업지역, 신축 아파트가 섞인 혼재 생활권입니다. 건물마다 출입 방식이 달라 공동현관과 주차, 야간 출입을 예약 전에 확인하면 편합니다." } },
-        { "@type": "Question", "name": "석남역과 교통은 어떤가요?", "acceptedAnswer": { "@type": "Answer", "text": "석남역은 인천 2호선과 서울 7호선 환승역으로 서울·부천 방면 접근성이 좋고, 경인고속도로와 서인천IC가 가까워 차량 이동도 원활합니다." } },
-        { "@type": "Question", "name": "오피스텔이나 아파트에서도 이용할 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "네, 오피스텔·아파트·원룸·빌라 등 다양한 건물에서 이용 가능합니다. 동·호수와 공동현관, 엘리베이터, 주차 방식을 함께 알려 주시면 도착이 매끄럽습니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/incheon/seongnam/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/incheon/seongnam/",
+      "name": "인천 석남동 출장마사지 | 석남동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "인천권",
+          "item": "https://flowease.pages.dev/west-metro/incheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "서해구",
+          "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "석남동",
+          "item": "https://flowease.pages.dev/west-metro/incheon/seongnam/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "석남동은 어떤 생활권이라 방문형 이용 시 무엇을 고려하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "원도심 주택가와 산업지역, 신축 아파트가 섞인 혼재 생활권입니다. 건물마다 출입 방식이 달라 공동현관과 주차, 야간 출입을 예약 전에 확인하면 편합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "석남역과 교통은 어떤가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "석남역은 인천 2호선과 서울 7호선 환승역으로 서울·부천 방면 접근성이 좋고, 경인고속도로와 서인천IC가 가까워 차량 이동도 원활합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "오피스텔이나 아파트에서도 이용할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네, 오피스텔·아파트·원룸·빌라 등 다양한 건물에서 이용 가능합니다. 동·호수와 공동현관, 엘리베이터, 주차 방식을 함께 알려 주시면 도착이 매끄럽습니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

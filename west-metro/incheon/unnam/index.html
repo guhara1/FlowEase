@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/incheon/unnam/#webpage", "url": "https://flowease.pages.dev/west-metro/incheon/unnam/", "name": "인천 운남동 출장마사지 | 운남동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "인천권", "item": "https://flowease.pages.dev/west-metro/incheon/" },
-        { "@type": "ListItem", "position": 4, "name": "영종구", "item": "https://flowease.pages.dev/west-metro/incheon/yeongjong-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "운남동", "item": "https://flowease.pages.dev/west-metro/incheon/unnam/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "운남동은 어떤 생활권이라 방문 이용 시 무엇을 고려해야 하나요?", "acceptedAnswer": { "@type": "Answer", "text": "영종도 서남부의 조용한 주거지로 하늘도시 아파트·오피스텔과 마을 저층 주거, 구읍뱃터 인근 숙소가 섞여 있습니다. 섬 생활권 특성상 다리·공항 주변 교통과 건물 출입 여건을 미리 확인해 두면 방문이 수월합니다." } },
-        { "@type": "Question", "name": "오피스텔이나 아파트에서 이용할 때 출입은 어떻게 준비하나요?", "acceptedAnswer": { "@type": "Answer", "text": "공동현관 비밀번호나 세대 호출, 방문차량 등록, 엘리베이터 카드 인증 여부가 건물마다 다릅니다. 예약 시 동·호수와 출입 방법, 주차 위치, 야간 출입 가능 시간대를 함께 알려주시면 도착이 매끄럽습니다." } },
-        { "@type": "Question", "name": "여행이나 출장으로 숙소에 머무는데도 이용할 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "게스트하우스·펜션·호텔형 숙소에서도 방문형 이용이 가능합니다. 프런트 경유가 필요한지, 객실 층 출입 인증이나 야간 출입 제한이 있는지 체크인 시 확인하고 예약 때 공유해 주시면 됩니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/incheon/unnam/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/incheon/unnam/",
+      "name": "인천 운남동 출장마사지 | 운남동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "인천권",
+          "item": "https://flowease.pages.dev/west-metro/incheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "영종구",
+          "item": "https://flowease.pages.dev/west-metro/incheon/yeongjong-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "운남동",
+          "item": "https://flowease.pages.dev/west-metro/incheon/unnam/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "운남동은 어떤 생활권이라 방문 이용 시 무엇을 고려해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "영종도 서남부의 조용한 주거지로 하늘도시 아파트·오피스텔과 마을 저층 주거, 구읍뱃터 인근 숙소가 섞여 있습니다. 섬 생활권 특성상 다리·공항 주변 교통과 건물 출입 여건을 미리 확인해 두면 방문이 수월합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "오피스텔이나 아파트에서 이용할 때 출입은 어떻게 준비하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공동현관 비밀번호나 세대 호출, 방문차량 등록, 엘리베이터 카드 인증 여부가 건물마다 다릅니다. 예약 시 동·호수와 출입 방법, 주차 위치, 야간 출입 가능 시간대를 함께 알려주시면 도착이 매끄럽습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "여행이나 출장으로 숙소에 머무는데도 이용할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "게스트하우스·펜션·호텔형 숙소에서도 방문형 이용이 가능합니다. 프런트 경유가 필요한지, 객실 층 출입 인증이나 야간 출입 제한이 있는지 체크인 시 확인하고 예약 때 공유해 주시면 됩니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

@@ -10,8 +10,12 @@
 - **상호/전화**: 간다GO · 전화예약 `0508-202-4719` (푸터 + 히어로 + `tel:` 자동 링크).
 - **디스크립션 80자 이내**: 모든 페이지 `<meta name="description">`를 80자 이하로 작성.
 - **스키마(전 페이지 필수)**: Organization, WebSite, WebPage, BreadcrumbList,
-  Service(OfferCatalog), FAQPage, ImageObject. **LocalBusiness / Review /
-  AggregateRating 미사용** (오프라인 매장 주소 없는 방문형 서비스 기준).
+  Service(OfferCatalog), FAQPage, ImageObject. **LocalBusiness 미사용**
+  (오프라인 매장 주소 없는 방문형 서비스 기준).
+- **후기·평점**: 이용자 후기 10건과 평균 평점 4.2/5를 전용 `/reviews/` 페이지와
+  메인 후기 섹션에 노출하고, 화면에 보이는 후기와 동일한 내용을 `Organization`의
+  `aggregateRating` + `Review`(Person) 스키마로 표기. 모든 페이지 푸터에
+  평점 배지(`/reviews/` 링크)를 넣어 스키마-노출 일치를 유지.
 - **디자인 토큰 프리미엄 팔레트 교체 + 컴포넌트 오버레이**:
   `assets/css/tokens.css`(토큰) / `assets/css/style.css`(컴포넌트·오버레이).
 - **내부링크 롱테일 강화**: 메인→지역, 지역↔지역 상호링크에 생활권 기반
