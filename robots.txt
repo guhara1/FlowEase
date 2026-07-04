@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ganda-go.example/sitemap.xml
+Sitemap: https://flowease.pages.dev/sitemap.xml

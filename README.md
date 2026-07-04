@@ -31,7 +31,7 @@ telegram: {
 ```
 
 > 현재는 플레이스홀더 `https://t.me/ganda_go`가 들어 있습니다.
-> 도메인도 배포 시 `ganda-go.example` → 실제 도메인으로 일괄 치환하세요.
+> 도메인도 배포 시 `flowease.pages.dev` → 실제 도메인으로 일괄 치환하세요.
 
 ## 구조
 
