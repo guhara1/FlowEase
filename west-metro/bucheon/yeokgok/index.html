@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/bucheon/yeokgok/#webpage", "url": "https://flowease.pages.dev/west-metro/bucheon/yeokgok/", "name": "부천 역곡동 출장마사지 | 역곡동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "부천권", "item": "https://flowease.pages.dev/west-metro/bucheon/" },
-        { "@type": "ListItem", "position": 4, "name": "원미구", "item": "https://flowease.pages.dev/west-metro/bucheon/wonmi-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "역곡동", "item": "https://flowease.pages.dev/west-metro/bucheon/yeokgok/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "역곡동은 원룸·다세대가 많은데 위치 안내는 어떻게 하면 좋나요?", "acceptedAnswer": { "@type": "Answer", "text": "비슷한 외관의 주택과 좁은 골목이 많아 도로명 주소만으로는 찾기 어려울 수 있습니다. 정확한 동·호수와 함께 역곡역 출구 번호나 인근 큰 상가 같은 랜드마크를 알려주시면 이동이 한결 정확해집니다." } },
-        { "@type": "Question", "name": "공동현관이 있는 건물은 무엇을 미리 확인해야 하나요?", "acceptedAnswer": { "@type": "Answer", "text": "공동현관 비밀번호가 있는지, 세대 호출로 열어야 하는지에 따라 도착 후 흐름이 달라집니다. 예약 단계에서 출입 방법을 함께 전달해 두면 대기 시간 없이 진행됩니다." } },
-        { "@type": "Question", "name": "오피스텔이나 아파트도 이용할 수 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "네, 이용 가능합니다. 다만 로비 방문자 등록이나 엘리베이터 카드 인증, 세대 인터폰 승인이 필요한 곳이 있으니 사전에 관리실 안내나 출입 방식을 확인해 두시면 편리합니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/bucheon/yeokgok/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/bucheon/yeokgok/",
+      "name": "부천 역곡동 출장마사지 | 역곡동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "부천권",
+          "item": "https://flowease.pages.dev/west-metro/bucheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "원미구",
+          "item": "https://flowease.pages.dev/west-metro/bucheon/wonmi-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "역곡동",
+          "item": "https://flowease.pages.dev/west-metro/bucheon/yeokgok/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "역곡동은 원룸·다세대가 많은데 위치 안내는 어떻게 하면 좋나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "비슷한 외관의 주택과 좁은 골목이 많아 도로명 주소만으로는 찾기 어려울 수 있습니다. 정확한 동·호수와 함께 역곡역 출구 번호나 인근 큰 상가 같은 랜드마크를 알려주시면 이동이 한결 정확해집니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "공동현관이 있는 건물은 무엇을 미리 확인해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공동현관 비밀번호가 있는지, 세대 호출로 열어야 하는지에 따라 도착 후 흐름이 달라집니다. 예약 단계에서 출입 방법을 함께 전달해 두면 대기 시간 없이 진행됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "오피스텔이나 아파트도 이용할 수 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네, 이용 가능합니다. 다만 로비 방문자 등록이나 엘리베이터 카드 인증, 세대 인터폰 승인이 필요한 곳이 있으니 사전에 관리실 안내나 출입 방식을 확인해 두시면 편리합니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

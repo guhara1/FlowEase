@@ -24,23 +24,102 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/siheung/janggok/#webpage", "url": "https://flowease.pages.dev/west-metro/siheung/janggok/", "name": "시흥 장곡동 출장마사지 | 장곡동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "시흥권", "item": "https://flowease.pages.dev/west-metro/siheung/" },
-        { "@type": "ListItem", "position": 4, "name": "장곡동", "item": "https://flowease.pages.dev/west-metro/siheung/janggok/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "장곡동은 어떤 생활권이라 방문 이용에 참고할 점이 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "장현지구를 중심으로 한 공공주택 신도시 성격의 주거지로, 시흥시청과 시청역이 가깝습니다. 대단지 아파트와 오피스텔, 다세대가 섞여 있어 건물마다 공동현관·주차 구조가 달라 예약 전 출입 정보를 공유하면 진행이 수월합니다." } },
-        { "@type": "Question", "name": "시흥시청역에서 접근이 편한가요?", "acceptedAnswer": { "@type": "Answer", "text": "서해선 시흥시청역이 생활권의 중심 축이라 소사·원시 방면과 연결되고 소사역에서 1호선 환승이 가능합니다. 시청역이나 큰 도로를 기준으로 위치를 설명하면 관리사의 초행길 안내가 한결 정확해집니다." } },
-        { "@type": "Question", "name": "예약할 때 미리 알려주면 좋은 정보는 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "주소와 동·호수, 건물 유형, 공동현관 출입 방법과 방문 주차 가능 여부를 함께 알려주시면 도착 시간이 정확해집니다. 야간 이용이라면 공동현관 잠금과 엘리베이터 제한 여부도 미리 확인해 두시면 좋습니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/siheung/janggok/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/siheung/janggok/",
+      "name": "시흥 장곡동 출장마사지 | 장곡동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "시흥권",
+          "item": "https://flowease.pages.dev/west-metro/siheung/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "장곡동",
+          "item": "https://flowease.pages.dev/west-metro/siheung/janggok/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "장곡동은 어떤 생활권이라 방문 이용에 참고할 점이 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "장현지구를 중심으로 한 공공주택 신도시 성격의 주거지로, 시흥시청과 시청역이 가깝습니다. 대단지 아파트와 오피스텔, 다세대가 섞여 있어 건물마다 공동현관·주차 구조가 달라 예약 전 출입 정보를 공유하면 진행이 수월합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "시흥시청역에서 접근이 편한가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "서해선 시흥시청역이 생활권의 중심 축이라 소사·원시 방면과 연결되고 소사역에서 1호선 환승이 가능합니다. 시청역이나 큰 도로를 기준으로 위치를 설명하면 관리사의 초행길 안내가 한결 정확해집니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "예약할 때 미리 알려주면 좋은 정보는 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "주소와 동·호수, 건물 유형, 공동현관 출입 방법과 방문 주차 가능 여부를 함께 알려주시면 도착 시간이 정확해집니다. 야간 이용이라면 공동현관 잠금과 엘리베이터 제한 여부도 미리 확인해 두시면 좋습니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -181,6 +260,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

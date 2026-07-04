@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/incheon/gwangyo/#webpage", "url": "https://flowease.pages.dev/west-metro/incheon/gwangyo/", "name": "인천 관교동 출장마사지 | 관교동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "인천권", "item": "https://flowease.pages.dev/west-metro/incheon/" },
-        { "@type": "ListItem", "position": 4, "name": "미추홀구", "item": "https://flowease.pages.dev/west-metro/incheon/michuhol-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "관교동", "item": "https://flowease.pages.dev/west-metro/incheon/gwangyo/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "관교동은 어떤 특성의 지역인가요?", "acceptedAnswer": { "@type": "Answer", "text": "인천종합터미널과 대형 상업시설이 모인 상권 중심지이면서, 인근 문학경기장과 아파트·다세대 주거지가 함께 있는 생활권입니다. 상업지와 주거지가 섞여 시간대에 따라 이동과 주차 여건이 달라지므로 방문 시간을 여유 있게 잡는 것이 좋습니다." } },
-        { "@type": "Question", "name": "건물 유형에 따라 출입 방법을 미리 알려야 하나요?", "acceptedAnswer": { "@type": "Answer", "text": "네. 아파트는 공동현관과 차량 등록, 오피스텔은 로비 보안과 엘리베이터 인증, 원룸·다세대는 정확한 동·호수와 골목 주차, 숙소는 프런트 방문 정책이 다릅니다. 예약 전에 건물 유형과 출입 방식을 함께 전달하면 도착이 수월합니다." } },
-        { "@type": "Question", "name": "야간에 이용할 때 확인할 점은 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "야간에는 공동현관이 잠기거나 주차 공간이 줄어드는 건물이 있습니다. 늦은 시간 이용 시 출입 절차와 주차 안내를 다시 확인하고, 연락 가능한 번호를 남겨 두면 도착 시 원활하게 소통할 수 있습니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/incheon/gwangyo/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/incheon/gwangyo/",
+      "name": "인천 관교동 출장마사지 | 관교동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "인천권",
+          "item": "https://flowease.pages.dev/west-metro/incheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "미추홀구",
+          "item": "https://flowease.pages.dev/west-metro/incheon/michuhol-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "관교동",
+          "item": "https://flowease.pages.dev/west-metro/incheon/gwangyo/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "관교동은 어떤 특성의 지역인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "인천종합터미널과 대형 상업시설이 모인 상권 중심지이면서, 인근 문학경기장과 아파트·다세대 주거지가 함께 있는 생활권입니다. 상업지와 주거지가 섞여 시간대에 따라 이동과 주차 여건이 달라지므로 방문 시간을 여유 있게 잡는 것이 좋습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "건물 유형에 따라 출입 방법을 미리 알려야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "네. 아파트는 공동현관과 차량 등록, 오피스텔은 로비 보안과 엘리베이터 인증, 원룸·다세대는 정확한 동·호수와 골목 주차, 숙소는 프런트 방문 정책이 다릅니다. 예약 전에 건물 유형과 출입 방식을 함께 전달하면 도착이 수월합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "야간에 이용할 때 확인할 점은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "야간에는 공동현관이 잠기거나 주차 공간이 줄어드는 건물이 있습니다. 늦은 시간 이용 시 출입 절차와 주차 안내를 다시 확인하고, 연락 가능한 번호를 남겨 두면 도착 시 원활하게 소통할 수 있습니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

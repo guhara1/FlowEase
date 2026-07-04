@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/incheon/gajeong/#webpage", "url": "https://flowease.pages.dev/west-metro/incheon/gajeong/", "name": "인천 가정동 출장마사지 | 가정동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "인천권", "item": "https://flowease.pages.dev/west-metro/incheon/" },
-        { "@type": "ListItem", "position": 4, "name": "서해구", "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "가정동", "item": "https://flowease.pages.dev/west-metro/incheon/gajeong/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "가정동은 루원시티 신도시와 원도심이 섞여 있는데 방문 안내는 어떻게 하면 좋나요?", "acceptedAnswer": { "@type": "Answer", "text": "신축 단지는 내비게이션 주소와 실제 출입구가 다를 수 있어 건물명과 진입 게이트, 상가 방향을 함께 알려주시면 좋습니다. 원도심 골목은 일방통행과 좁은 진입로가 많아 큰길이나 가정중앙시장을 기준점으로 잡아 안내하면 수월합니다." } },
-        { "@type": "Question", "name": "아파트나 오피스텔은 출입 시 무엇을 준비하면 되나요?", "acceptedAnswer": { "@type": "Answer", "text": "공동현관 비밀번호나 호출 등록, 방문 차량 등록, 엘리베이터 카드 태그 여부가 건물마다 달라 예약 전에 동·호수와 출입 방법을 미리 공유해두시면 진행이 매끄럽습니다." } },
-        { "@type": "Question", "name": "야간이나 공항 방면 이동을 겸할 때 주의할 점이 있나요?", "acceptedAnswer": { "@type": "Answer", "text": "야간에는 공동현관 잠금과 방문 등록이 까다로워질 수 있어 출입 절차를 미리 확인해두시는 것이 좋고, 청라·공항 방면 정체를 고려해 예상 이동 시간을 여유 있게 잡으시길 권합니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/incheon/gajeong/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/incheon/gajeong/",
+      "name": "인천 가정동 출장마사지 | 가정동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "인천권",
+          "item": "https://flowease.pages.dev/west-metro/incheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "서해구",
+          "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "가정동",
+          "item": "https://flowease.pages.dev/west-metro/incheon/gajeong/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "가정동은 루원시티 신도시와 원도심이 섞여 있는데 방문 안내는 어떻게 하면 좋나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "신축 단지는 내비게이션 주소와 실제 출입구가 다를 수 있어 건물명과 진입 게이트, 상가 방향을 함께 알려주시면 좋습니다. 원도심 골목은 일방통행과 좁은 진입로가 많아 큰길이나 가정중앙시장을 기준점으로 잡아 안내하면 수월합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "아파트나 오피스텔은 출입 시 무엇을 준비하면 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공동현관 비밀번호나 호출 등록, 방문 차량 등록, 엘리베이터 카드 태그 여부가 건물마다 달라 예약 전에 동·호수와 출입 방법을 미리 공유해두시면 진행이 매끄럽습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "야간이나 공항 방면 이동을 겸할 때 주의할 점이 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "야간에는 공동현관 잠금과 방문 등록이 까다로워질 수 있어 출입 절차를 미리 확인해두시는 것이 좋고, 청라·공항 방면 정체를 고려해 예상 이동 시간을 여유 있게 잡으시길 권합니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

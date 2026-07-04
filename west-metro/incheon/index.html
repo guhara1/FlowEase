@@ -24,26 +24,94 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/incheon/#webpage",
-        "url": "https://flowease.pages.dev/west-metro/incheon/", "name": "인천 출장마사지 송도·부평·구월 생활권 안내",
-        "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" },
-        "primaryImageOfPage": { "@type": "ImageObject", "url": "https://flowease.pages.dev/assets/img/incheon.jpg", "width": 1200, "height": 630 } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "인천권", "item": "https://flowease.pages.dev/west-metro/incheon/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "인천 송도와 영종은 기준이 다른가요?",
-          "acceptedAnswer": { "@type": "Answer", "text": "송도는 국제업무지구·호텔·오피스텔 중심이고, 영종은 공항·운서·하늘도시·차량 이동 기준이 중요합니다." } },
-        { "@type": "Question", "name": "공항 근처 숙소는 어떤 점을 확인해야 하나요?",
-          "acceptedAnswer": { "@type": "Answer", "text": "인천공항·운서·영종 지역은 이동 시간, 주차, 예약 가능 시간, 숙소 출입 방식을 함께 확인해야 합니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/incheon/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/incheon/",
+      "name": "인천 출장마사지 송도·부평·구월 생활권 안내",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://flowease.pages.dev/assets/img/incheon.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "인천권",
+          "item": "https://flowease.pages.dev/west-metro/incheon/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "인천 송도와 영종은 기준이 다른가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "송도는 국제업무지구·호텔·오피스텔 중심이고, 영종은 공항·운서·하늘도시·차량 이동 기준이 중요합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "공항 근처 숙소는 어떤 점을 확인해야 하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "인천공항·운서·영종 지역은 이동 시간, 주차, 예약 가능 시간, 숙소 출입 방식을 함께 확인해야 합니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -291,6 +359,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

@@ -24,21 +24,68 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "description": "시흥·부천·인천 서부 수도권 출장마사지·홈타이 생활권 안내 서비스",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "AboutPage", "@id": "https://flowease.pages.dev/about/#webpage",
-        "url": "https://flowease.pages.dev/about/", "name": "운영 기준·소개 간다GO는 이렇게 안내합니다",
-        "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" },
-        "primaryImageOfPage": { "@type": "ImageObject", "url": "https://flowease.pages.dev/assets/img/og-cover.jpg", "width": 1200, "height": 630 } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "운영 기준·소개", "item": "https://flowease.pages.dev/about/" } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "description": "시흥·부천·인천 서부 수도권 출장마사지·홈타이 생활권 안내 서비스",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://flowease.pages.dev/about/#webpage",
+      "url": "https://flowease.pages.dev/about/",
+      "name": "운영 기준·소개 간다GO는 이렇게 안내합니다",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://flowease.pages.dev/assets/img/og-cover.jpg",
+        "width": 1200,
+        "height": 630
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "운영 기준·소개",
+          "item": "https://flowease.pages.dev/about/"
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -117,7 +164,7 @@
           <li>불법·선정적 서비스는 제공하거나 안내하지 않으며, 요구 시 예약을 거절합니다.</li>
           <li>"1위", "최저가", "무조건 가능" 같은 과장·보장 표현을 사용하지 않습니다.</li>
           <li>개인정보는 예약 확인에 필요한 최소 정보만 확인하고, 목적 외로 보관·사용·제공하지 않습니다.</li>
-          <li>가짜 후기와 허위 평점을 만들지 않습니다. 사이트에 별점·후기 표시가 없는 이유입니다.</li>
+          <li>후기와 평점은 실제 이용 상담을 거친 이용자의 의견만 반영하며, 가짜 후기나 부풀린 평점을 만들지 않습니다.</li>
           <li>지역 안내는 실제 상담에서 확인된 내용만 반영하며, 확인되지 않은 지역은 상담 시 함께 확인합니다.</li>
         </ul>
 
@@ -188,6 +235,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

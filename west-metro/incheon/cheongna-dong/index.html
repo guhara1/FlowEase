@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/incheon/cheongna-dong/#webpage", "url": "https://flowease.pages.dev/west-metro/incheon/cheongna-dong/", "name": "인천 청라동 출장마사지 | 청라동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "인천권", "item": "https://flowease.pages.dev/west-metro/incheon/" },
-        { "@type": "ListItem", "position": 4, "name": "서해구", "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "청라동", "item": "https://flowease.pages.dev/west-metro/incheon/cheongna-dong/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "청라동은 신도시라 건물이 많은데 어디로 방문하나요?", "acceptedAnswer": { "@type": "Answer", "text": "청라국제도시의 오피스텔, 대단지 아파트, 주택, 레지던스형 숙소 등 이용자가 머무는 공간으로 직접 방문하는 방식으로 안내됩니다. 건물 유형에 따라 출입 방법이 달라 예약 시 주소와 출입 정보를 함께 알려 주시면 됩니다." } },
-        { "@type": "Question", "name": "오피스텔 공동현관 출입은 어떻게 준비하나요?", "acceptedAnswer": { "@type": "Answer", "text": "업무지구 배후 오피스텔은 공동현관 비밀번호나 호출, 엘리베이터 카드 인증이 필요한 곳이 많습니다. 예약 시 동·호수와 출입 방법을 미리 전달해 두면 도착 후 대기 없이 진행하기 좋습니다." } },
-        { "@type": "Question", "name": "예약 전에 확인해 두면 좋은 점은 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "건물 유형별 출입 기준, 방문 차량 등록과 주차 위치, 야간 출입 절차, 예상 도착 시간을 미리 정리해 두시면 방문이 매끄럽습니다. 숙소 이용 시에는 프런트 방문 방침도 확인해 두면 도움이 됩니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/incheon/cheongna-dong/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/incheon/cheongna-dong/",
+      "name": "인천 청라동 출장마사지 | 청라동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "인천권",
+          "item": "https://flowease.pages.dev/west-metro/incheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "서해구",
+          "item": "https://flowease.pages.dev/west-metro/incheon/seohae-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "청라동",
+          "item": "https://flowease.pages.dev/west-metro/incheon/cheongna-dong/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "청라동은 신도시라 건물이 많은데 어디로 방문하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "청라국제도시의 오피스텔, 대단지 아파트, 주택, 레지던스형 숙소 등 이용자가 머무는 공간으로 직접 방문하는 방식으로 안내됩니다. 건물 유형에 따라 출입 방법이 달라 예약 시 주소와 출입 정보를 함께 알려 주시면 됩니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "오피스텔 공동현관 출입은 어떻게 준비하나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "업무지구 배후 오피스텔은 공동현관 비밀번호나 호출, 엘리베이터 카드 인증이 필요한 곳이 많습니다. 예약 시 동·호수와 출입 방법을 미리 전달해 두면 도착 후 대기 없이 진행하기 좋습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "예약 전에 확인해 두면 좋은 점은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "건물 유형별 출입 기준, 방문 차량 등록과 주차 위치, 야간 출입 절차, 예상 도착 시간을 미리 정리해 두시면 방문이 매끄럽습니다. 숙소 이용 시에는 프런트 방문 방침도 확인해 두면 도움이 됩니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>

@@ -24,24 +24,108 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
   <link rel="preload" as="image" href="/assets/img/hero-bg.webp" fetchpriority="high" />
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      { "@type": "Organization", "@id": "https://flowease.pages.dev/#org", "name": "간다GO", "url": "https://flowease.pages.dev/",
-        "contactPoint": { "@type": "ContactPoint", "telephone": "+82-508-202-4719", "contactType": "reservations", "areaServed": "KR", "availableLanguage": ["ko"] } },
-      { "@type": "WebPage", "@id": "https://flowease.pages.dev/west-metro/bucheon/simgok/#webpage", "url": "https://flowease.pages.dev/west-metro/bucheon/simgok/", "name": "부천 심곡동 출장마사지 | 심곡동 생활권 이용 안내 · 간다GO", "inLanguage": "ko", "about": { "@id": "https://flowease.pages.dev/#org" } },
-      { "@type": "BreadcrumbList", "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "홈", "item": "https://flowease.pages.dev/" },
-        { "@type": "ListItem", "position": 2, "name": "서부 수도권", "item": "https://flowease.pages.dev/west-metro/" },
-        { "@type": "ListItem", "position": 3, "name": "부천권", "item": "https://flowease.pages.dev/west-metro/bucheon/" },
-        { "@type": "ListItem", "position": 4, "name": "원미구", "item": "https://flowease.pages.dev/west-metro/bucheon/wonmi-gu/" },
-        { "@type": "ListItem", "position": 5, "name": "심곡동", "item": "https://flowease.pages.dev/west-metro/bucheon/simgok/" } ] },
-      { "@type": "FAQPage", "mainEntity": [
-        { "@type": "Question", "name": "심곡동은 골목이 좁고 다세대가 많은데 방문 위치를 어떻게 안내하면 좋나요?", "acceptedAnswer": { "@type": "Answer", "text": "지도상 위치와 실제 입구가 다를 수 있어, 큰길에서 들어오는 방향과 눈에 띄는 상가·간판을 기준점으로 함께 알려주시면 도착이 정확해집니다. 동·호수와 층수, 계단 여부까지 공유해 주시면 더욱 원활합니다." } },
-        { "@type": "Question", "name": "예약 전에 꼭 확인해야 하는 출입 관련 사항은 무엇인가요?", "acceptedAnswer": { "@type": "Answer", "text": "공동현관 개폐 방식, 엘리베이터 이용 여부, 방문 차량 등록, 주차·정차 가능 위치, 야간 출입구까지 다섯 가지를 미리 정리해 두시면 도착 후 지체 없이 진행됩니다. 건물 유형마다 조건이 달라 사전 확인이 중요합니다." } },
-        { "@type": "Question", "name": "부천역 근처라 저녁에는 이동이 오래 걸릴까요?", "acceptedAnswer": { "@type": "Answer", "text": "부천역 상권과 가까워 저녁 시간대에는 유동 인구와 차량이 많은 편입니다. 여유 있게 예약 시간을 잡고, 인근 정차 가능한 위치를 미리 파악해 두시면 도착 시간을 예측하기 수월합니다." } } ] }
-    ]
-  }
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://flowease.pages.dev/#org",
+      "name": "간다GO",
+      "url": "https://flowease.pages.dev/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+82-508-202-4719",
+        "contactType": "reservations",
+        "areaServed": "KR",
+        "availableLanguage": [
+          "ko"
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.2",
+        "bestRating": "5",
+        "worstRating": "1",
+        "ratingCount": "10",
+        "reviewCount": "10"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://flowease.pages.dev/west-metro/bucheon/simgok/#webpage",
+      "url": "https://flowease.pages.dev/west-metro/bucheon/simgok/",
+      "name": "부천 심곡동 출장마사지 | 심곡동 생활권 이용 안내 · 간다GO",
+      "inLanguage": "ko",
+      "about": {
+        "@id": "https://flowease.pages.dev/#org"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "홈",
+          "item": "https://flowease.pages.dev/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "서부 수도권",
+          "item": "https://flowease.pages.dev/west-metro/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "부천권",
+          "item": "https://flowease.pages.dev/west-metro/bucheon/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "원미구",
+          "item": "https://flowease.pages.dev/west-metro/bucheon/wonmi-gu/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "심곡동",
+          "item": "https://flowease.pages.dev/west-metro/bucheon/simgok/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "심곡동은 골목이 좁고 다세대가 많은데 방문 위치를 어떻게 안내하면 좋나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "지도상 위치와 실제 입구가 다를 수 있어, 큰길에서 들어오는 방향과 눈에 띄는 상가·간판을 기준점으로 함께 알려주시면 도착이 정확해집니다. 동·호수와 층수, 계단 여부까지 공유해 주시면 더욱 원활합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "예약 전에 꼭 확인해야 하는 출입 관련 사항은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "공동현관 개폐 방식, 엘리베이터 이용 여부, 방문 차량 등록, 주차·정차 가능 위치, 야간 출입구까지 다섯 가지를 미리 정리해 두시면 도착 후 지체 없이 진행됩니다. 건물 유형마다 조건이 달라 사전 확인이 중요합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "부천역 근처라 저녁에는 이동이 오래 걸릴까요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "부천역 상권과 가까워 저녁 시간대에는 유동 인구와 차량이 많은 편입니다. 여유 있게 예약 시간을 잡고, 인근 정차 가능한 위치를 미리 파악해 두시면 도착 시간을 예측하기 수월합니다."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -182,6 +266,7 @@
         </ul></div>
       </div>
       <div class="footer-bottom">
+        <a class="rating-badge" href="/reviews/"><span class="stars">★★★★☆</span> <b>4.2</b>/5 · 이용후기 10건</a>
         <span>© <span data-year>2026</span> 간다GO. All rights reserved.</span>
         <span class="footer-legal">불법·선정적 서비스는 제공하지 않습니다 · 개인정보는 예약 확인에 필요한 최소 정보만 처리합니다.</span>
       </div>
